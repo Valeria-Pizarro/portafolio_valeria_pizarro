@@ -1,0 +1,745 @@
+:root {
+    --color-primero: #C98686;
+    --color-segundo: #EFEFD0;
+    --color-tercero: #6A4D4D;
+    --color-cuarto: #454545;
+    --fuente: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--fuente);
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--color-segundo);
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    max-width: 1700px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Navegador*/
+nav {
+    background-color: var(--color-segundo);
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+nav .nav {
+    padding: .9em 0em;
+}
+
+
+nav .container ul li {
+    display: inline;
+    padding: .2em;
+}
+
+nav .container ul li a{
+    font-size: 1em;
+    color: var(--color-tercero);
+    padding: .8em 1em;
+    border-radius: 10px;
+}
+
+nav .container ul li a:hover{
+    color: var(--color-segundo);
+    background-color: var(--color-primero);
+}
+
+.logo a {
+    color: var(--color-tercero);
+}
+
+.logo a:hover {
+    color: var(--color-tercero);
+    text-decoration: none;
+}
+/*Fin Navegador*/
+
+section .wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 70%;
+    height: 95vh;
+    max-width: 1700px;
+    margin: auto;
+    text-align: center;
+    color: var(--color-segundo);
+    font-size: 1.4em;
+}
+
+section .wrap-uno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 70%;
+    height: 95vh;
+    max-width: 1700px;
+    margin: auto;
+    text-align: center;
+    color: var(--color-segundo);
+    font-size: 1.4em;
+}
+
+section .wrap-dos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 70%;
+    height: 120vh;
+    max-width: 1700px;
+    margin: auto;
+    text-align: center;
+    color: var(--color-segundo);
+    font-size: 1.4em;
+}
+
+section .wrap-tres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 70%;
+    height: 95vh;
+    max-width: 1700px;
+    margin: auto;
+    text-align: center;
+    color: var(--color-segundo);
+    font-size: 1.4em;
+}
+
+/*Seccion 1*/ 
+.bienvenida .down {
+    margin-top: 2em;
+}
+
+.bienvenida {
+    background-color: var(--color-primero);
+    padding-top: 3.125em;
+}
+
+.servicios {
+    background-color: var(--color-tercero);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.foto-yo {
+    height: auto;
+}
+
+.sobremi {
+    padding-top: 1.875em;
+    margin-left: 3.125em;
+    text-align: left;
+}
+
+.sobremi b {
+    font-size: 18px;
+    color: var(--color-cuarto);
+}
+
+.hola {
+    padding-bottom: 0.625em;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+}
+
+section .contact {
+    margin-top: 1em;
+}
+
+section .contact a {
+    background-color: var(--color-segundo);
+    padding: 0em 1.875em;
+    border-radius: 10px;
+    color: var(--color-tercero);
+    font-size: 40px;
+}
+
+section .contact a:hover {
+    color: var(--color-segundo);
+    background-color: var(--color-tercero);
+}
+
+.boton a {
+    color: var(--color-cuarto);
+    font-size: 30px;
+}
+
+.boton a:hover {
+    color: var(--color-segundo);
+}
+/*Fin Seccion 1*/
+
+/*Seccion 2*/
+.programas {
+    display: flex; 
+    padding: 1.875em 6.25em;
+}
+
+.programas-foto {
+    padding: 0em 2.5em;
+}
+
+.programas-foto h6 {
+    color: var(--color-segundo);
+}
+/*Fin Seccion 2*/
+
+/*Seccion 3*/
+.trabajos {
+    background-color: var(--color-primero);
+}
+
+.muestras {
+    display: flex; 
+    padding: 1.25em 3.125em;
+}
+
+.trabajos-foto {
+    padding: 0em 0.625em;
+}
+
+.trabajos-foto h6 {
+    color: var(--color-segundo);
+}
+/*Fin Seccion 3*/
+
+/*Seccion 4*/
+.contacto {
+    background-color: var(--color-tercero);
+}
+
+section .redes {
+    margin-top: 1em;
+}
+
+section .form a {
+    background-color: var(--color-segundo);
+    padding: 0.0625em 1.875em;
+    border-radius: 0.625em;
+    color: var(--color-tercero);
+    font-size: 40px;
+}
+
+section .form a:hover {
+    color: var(--color-segundo);
+    background-color: var(--color-primero);
+}
+/*Fin Seccion 4*/
+
+section .final a {
+    background-color: var(--color-segundo);
+    padding: 0em 0.9375em;
+    border-radius: 10px;
+    color: var(--color-tercero);
+    font-size: 40px;
+}
+
+section .final a:hover {
+    color: var(--color-segundo);
+    background-color: var(--color-primero);
+}
+
+footer .logo {
+    padding: 1.25em 0em;
+    text-align: center;
+    background-color: var(--color-segundo);
+}
+
+footer .logo a {
+    color: var(--color-tercero);
+}
+
+.logo a:hover {
+    color: var(--color-tercero);
+    text-decoration: none;
+}
+
+
+/* ##Dispositivo = Tablets, Ipads (horizontal) 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px)  {
+    body {
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+        font-size: 12px;
+        justify-content: flex-start;
+    }
+    
+    section .wrap {
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        max-width: 1024px;
+        margin: auto;
+        font-size: 1em;
+    }
+    
+    section .wrap-uno {
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        max-width: 1024px;
+        margin: auto;
+        font-size: 1em;
+    }
+    
+    section .wrap-dos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        width: 90%;
+        height: auto;
+        max-width: 1024px;
+        margin: auto;
+        text-align: center;
+        font-size: 1em;
+    }
+    
+    section .wrap-tres {
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        max-width: 1024px;
+        margin: auto;
+        font-size: 1em;
+    }
+
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 90%;
+    }
+    
+    .foto-yo {
+        margin-top: 2em;
+        height: auto;
+    }
+    
+    .sobremi {
+        padding-top: 0.5em;
+        text-align: center;
+    }
+    
+    .sobremi b {
+        font-size: 15px;
+    }
+    
+    .hola {
+        padding-bottom: 0.5em;
+    }
+    
+    .redes {
+        justify-content: space-evenly;
+    }
+    
+    section .contact {
+        margin-top: 0.5em;
+    }
+    
+    section .contact a {
+        font-size: 30px;
+    }
+    
+    .boton a {
+        font-size: 20px;
+    }
+
+    .caja-uno {
+        width: 70%;
+    }
+
+    .servicios-uno {
+        padding-top: 2em;
+    }
+
+    .servicios-uno p {
+        font-size: 15px;
+    }
+
+    .programas {
+        display: flex;
+        justify-content: center;
+        padding: 2em 6.25em;
+        font-size: 15px;
+    }
+    
+    .programas-foto {
+        padding: 0em 0.5em;
+        font-size: 17px;
+    }
+
+    .muestras {
+        flex-wrap: wrap;
+        padding: 0.5em 1em;
+    }
+    
+    .trabajos-foto {
+        padding: 0em 0.2em;
+    }
+    
+    section .redes {
+        margin-top: 1em;
+    }
+    
+    section .form a {
+        padding: 0.0625em 1.875em;
+        border-radius: 0.625em;
+        font-size: 40px;
+    }
+    
+    section .final a {
+        padding: 0em 0.9375em;
+        border-radius: 10px;
+        font-size: 40px;
+    }
+    
+    footer .logo {
+        padding: 1.25em 0em;
+        text-align: center;
+    }
+}
+
+/* ##Dispositivo = Tablets, Mobiles de 481px a 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        width: 120%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    nav {
+        width: 100%;
+        font-size: 12px;
+        justify-content: flex-start;
+    }
+    
+    section .wrap {
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        max-width: 767px;
+        margin: auto;
+        font-size: 1em;
+    }
+    
+    section .wrap-uno {
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        max-width: 767px;
+        margin: auto;
+        font-size: 1em;
+    }
+    
+    section .wrap-dos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        width: 90%;
+        height: auto;
+        max-width: 767px;
+        margin: auto;
+        text-align: center;
+        font-size: 1em;
+    }
+    
+    section .wrap-tres {
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        max-width: 767px;
+        margin: auto;
+        font-size: 1em;
+    }
+
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 90%;
+    }
+    
+    .foto-yo {
+        margin-top: 2em;
+        height: auto;
+    }
+    
+    .sobremi {
+        padding-top: 0.5em;
+        text-align: center;
+    }
+    
+    .sobremi b {
+        font-size: 15px;
+    }
+    
+    .hola {
+        padding-bottom: 0.5em;
+    }
+    
+    .redes {
+        justify-content: space-evenly;
+    }
+    
+    section .contact {
+        margin-top: 0.5em;
+    }
+    
+    section .contact a {
+        font-size: 30px;
+    }
+    
+    .boton a {
+        font-size: 20px;
+    }
+
+    .caja-uno {
+        width: 70%;
+    }
+
+    .servicios-uno {
+        padding-top: 2em;
+    }
+
+    .servicios-uno p {
+        font-size: 15px;
+    }
+
+    .programas {
+        flex-direction: column;
+        justify-content: center;
+        padding: 2em 6.25em;
+        font-size: 15px;
+    }
+    
+    .programas-foto {
+        padding: 0em 0.5em;
+        font-size: 17px;
+    }
+
+    .muestras {
+        flex-wrap: wrap;
+        padding: 0.5em 1em;
+    }
+    
+    .trabajos-foto {
+        padding: 0em 0.2em;
+    }
+    
+    section .redes {
+        margin-top: 1em;
+    }
+    
+    section .form a {
+        padding: 0.0625em 1.875em;
+        border-radius: 0.625em;
+        font-size: 40px;
+    }
+    
+    section .final a {
+        padding: 0em 0.9375em;
+        border-radius: 10px;
+        font-size: 40px;
+    }
+    
+    footer .logo {
+        padding: 1.25em 0em;
+        text-align: center;
+    }
+}
+
+/* ##Dispositivo = Smartphones de 320px a 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        width: 140%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    nav {
+        width: 100%;
+        font-size: 12px;
+        justify-content: flex-start;
+    }
+    
+    section .wrap {
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        max-width: 480px;
+        margin: auto;
+        font-size: 1em;
+    }
+    
+    section .wrap-uno {
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        max-width: 480px;
+        margin: auto;
+        font-size: 1em;
+    }
+    
+    section .wrap-dos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        width: 90%;
+        height: auto;
+        max-width: 480px;
+        margin: auto;
+        text-align: center;
+        font-size: 1em;
+    }
+    
+    section .wrap-tres {
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        max-width: 480px;
+        margin: auto;
+        font-size: 1em;
+    }
+
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 90%;
+    }
+    
+    .foto-yo {
+        margin-top: 2em;
+        height: auto;
+    }
+    
+    .sobremi {
+        padding-top: 0.5em;
+        text-align: center;
+    }
+    
+    .sobremi b {
+        font-size: 15px;
+    }
+    
+    .hola {
+        padding-bottom: 0.5em;
+    }
+    
+    .redes {
+        justify-content: space-evenly;
+    }
+    
+    section .contact {
+        margin-top: 0.5em;
+    }
+    
+    section .contact a {
+        font-size: 30px;
+    }
+    
+    .boton a {
+        font-size: 20px;
+    }
+
+    .caja-uno {
+        width: 70%;
+    }
+
+    .servicios-uno {
+        padding-top: 2em;
+    }
+
+    .servicios-uno p {
+        font-size: 15px;
+    }
+
+    .programas {
+        flex-direction: column;
+        justify-content: center;
+        padding: 2em 6.25em;
+        font-size: 15px;
+    }
+    
+    .programas-foto {
+        padding: 0em 0.5em;
+        font-size: 17px;
+    }
+
+    .muestras {
+        flex-wrap: wrap;
+        padding: 0.5em 1em;
+    }
+    
+    .trabajos-foto {
+        padding: 0em 0.2em;
+    }
+    
+    section .redes {
+        margin-top: 1em;
+    }
+    
+    section .form a {
+        padding: 0.0625em 1.875em;
+        border-radius: 0.625em;
+        font-size: 40px;
+    }
+    
+    section .final a {
+        padding: 0em 0.9375em;
+        border-radius: 10px;
+        font-size: 40px;
+    }
+    
+    footer .logo {
+        padding: 1.25em 0em;
+        text-align: center;
+    }
+}
